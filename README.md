@@ -30,8 +30,9 @@ nlp_project/
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
-cd nlp_project
+git clone https://github.com/ancuong1610/NLP-Project.git
+cd nlp_projekt
+
 ```
 
 ### 2. Install Dependencies
