@@ -19,7 +19,7 @@ nlp_project/
 ├── main.py                   # Main script to run the project
 ├── preprocessing.py          # Text preprocessing functions
 ├── model.py                  # Model training and evaluation
-├── highlight_issues.py       # Highlighting filler words
+├── issue_highlighting.py       # Highlighting filler words
 ├── requirements.txt          # Project dependencies
 └── README.md                 # Project documentation
 ```
@@ -120,7 +120,7 @@ pip install -r requirements.txt
 1. **main.py** → Runs the project end-to-end.  
 2. **preprocessing.py** → Handles text preprocessing.  
 3. **model.py** → Trains and evaluates the classification model.  
-4. **highlight_issues.py** → Detects non-academic filler words.  
+4. **issue_highlighting.py** → Detects non-academic filler words.  
 5. **data/** → Folder for the input dataset.  
 6. **models/** → Folder for saving trained models.  
 
