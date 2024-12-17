@@ -8,7 +8,7 @@ This project uses **Natural Language Processing (NLP)** techniques to detect and
 ## **Project Structure**
 
 ```
-nlp_project/
+nlp_projekt/
 │
 ├── data/                     # Folder for datasets
 │   └── academic_texts.csv    # Input dataset (labeled)
