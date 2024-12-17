@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from preprocessing import preprocess_text
 from model import train_model, evaluate_model
-from highlight_issues import highlight_issues
+from issue_highlighting import highlight_issues
 
 # Load and preprocess data
 data = pd.read_csv("data/academic_texts.csv")
