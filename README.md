@@ -12,14 +12,10 @@ nlp_projekt/
 │
 ├── data/                     # Folder for datasets
 │   └── academic_texts.csv    # Input dataset (labeled)
-│
-├── models/                   # Saved models
-│   └── model.pkl             # Trained model
-│
 ├── main.py                   # Main script to run the project
 ├── preprocessing.py          # Text preprocessing functions
 ├── model.py                  # Model training and evaluation
-├── issue_highlighting.py       # Highlighting filler words
+├── issue_highlighting.py     # Highlighting filler words
 ├── requirements.txt          # Project dependencies
 └── README.md                 # Project documentation
 ```
