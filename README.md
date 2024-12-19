@@ -11,7 +11,7 @@ This project uses **Natural Language Processing (NLP)** techniques to detect and
 nlp_projekt/
 │
 ├── data/                     # Folder for datasets
-│   └── academic_texts.csv    # Input dataset (labeled)
+│   └── akademische_texte.csv  # Input dataset (labeled)
 ├── main.py                   # Main script to run the project
 ├── preprocessing.py          # Text preprocessing functions
 ├── model.py                  # Model training and evaluation
@@ -27,8 +27,6 @@ nlp_projekt/
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/ancuong1610/NLP-Project.git
-cd nlp_projekt
-
 ```
 
 ### 2. Install Dependencies
@@ -41,15 +39,15 @@ pip install -r requirements.txt
 
 ## **Dataset Format**
 
-Place your input dataset in the `data/` folder. The dataset should be a CSV file named `academic_texts.csv` with the following format:
+Place your input dataset in the `data/` folder. The dataset should be a CSV file named `akademische_texte.csv` with the following format:
 
-| **text**                                     | **label** |
-|---------------------------------------------|-----------|
-| "This study demonstrates significant results." | 0         |
-| "Well, like, this is kinda cool, you know?"     | 1         |
+| **text**                                      | **label** |
+|----------------------------------------------|-----------|
+| "Diese Analyse zeigt bedeutende Ergebnisse." | 0         |
+| "Naja, das ist halt irgendwie spannend, oder?"| 1         |
 
-- **label = 0** → Academic Text  
-- **label = 1** → Non-Academic Text  
+- **label = 0** → Wissenschaftlicher Text  
+- **label = 1** → Nicht-wissenschaftlicher Text  
 
 ---
 
@@ -75,7 +73,7 @@ python main.py
    - Trains a **Logistic Regression** model to classify texts as **academic** or **non-academic**.
 
 4. **Highlighting Issues**:
-   - Detects and highlights filler words like *"like"*, *"you know"*, and *"kinda"* in non-academic text.
+   - Detects and highlights filler words like *"halt"*, *"irgendwie"*, and *"naja"* in non-academic text.
 
 5. **Evaluation**:
    - Outputs model accuracy and highlights issues in example texts.
@@ -84,14 +82,14 @@ python main.py
 
 ## **Sample Output**
 
-Example input text:
+Beispiel-Text:
 ```
-"Well, like, this is kinda interesting, you know?"
+"Naja, das ist halt irgendwie spannend, oder?"
 ```
 
-Output:
+Ausgabe:
 ```
-Highlighted Issues: ['like', 'kinda', 'you know']
+Hervorgehobene Probleme: ['halt', 'irgendwie']
 ```
 
 ---
@@ -126,13 +124,13 @@ pip install -r requirements.txt
 ## **How to Interpret the Results**
 
 - **Accuracy**: The percentage of texts correctly classified as academic or non-academic.  
-- **Highlighted Issues**: List of problematic words like *"like"* or *"you know"* in non-academic text.  
+- **Highlighted Issues**: List of problematic words like *"halt"* or *"irgendwie"* in non-academic text.  
 
 ---
 
 ## **Run and Test**
 
-1. Ensure your dataset (`academic_texts.csv`) is placed in the `data/` folder.  
+1. Ensure your dataset (`akademische_texte.csv`) is placed in the `data/` folder.  
 2. Run the `main.py` script to train the model and test it.  
 3. Test custom text samples to detect non-academic issues.
 
