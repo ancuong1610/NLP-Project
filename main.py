@@ -5,7 +5,7 @@ from model import train_model, evaluate_model
 from issue_highlighting import highlight_issues
 
 # Load and preprocess data
-data = pd.read_csv("data/academic_texts.csv")
+data = pd.read_csv("data/akademische_texte.csv")
 data['cleaned'] = data['text'].apply(preprocess_text)
 
 # Split data
