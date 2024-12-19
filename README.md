@@ -116,8 +116,7 @@ pip install -r requirements.txt
 2. **preprocessing.py** → Handles text preprocessing.  
 3. **model.py** → Trains and evaluates the classification model.  
 4. **issue_highlighting.py** → Detects non-academic filler words.  
-5. **data/** → Folder for the input dataset.  
-6. **models/** → Folder for saving trained models.  
+5. **data/** → Folder for the input dataset.   
 
 ---
 
