@@ -82,14 +82,20 @@ python main.py
 
 ## **Sample Output**
 
-Beispiel-Text:
+Example input text:
 ```
-"Naja, das ist halt irgendwie spannend, oder?"
+"Naja, das ist halt irgendwie spannend, oder? Die Ergebnisse basieren auf einer umfassenden Datenbasis."
 ```
 
-Ausgabe:
-```
-Hervorgehobene Probleme: ['halt', 'irgendwie']
+Terminal output:
+```bash
+Running the NLP Project: Detecting Non-Academic Language in Texts...
+
+Prediction: Non-Academic
+Highlighted Issues:
+- halt (Filler Word)
+- irgendwie (Filler Word)
+- naja (Colloquial Expression)
 ```
 
 ---
